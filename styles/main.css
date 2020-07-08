@@ -66,10 +66,13 @@
 	margin-top: 1.5em;
 	font-weight: 100;
 	font-size: 2em;
-	/* color: #FF9100; */
 	color: #001233;
-	/* text-shadow: -4px -2px 0px #023e8a; */
 }
+
+/* .home--textbox h3 {
+	font-family: cooper-black-std, serif;
+	margin-top: 1em;
+} */
 
 .about {
 	width: 100vw;
@@ -86,24 +89,13 @@
 @media screen and (min-width: 730px) {
 
 	div .grid {
-		display:grid;
-		grid-template-columns:repeat(12, 0.03fr);
-		grid-template-rows: repeat(2, 1fr);
 		grid-gap: 1%;
-		font-size: 26px;
 	}
 
 }
 
 @media screen and (min-width: 800px) {
 
-	div .grid {
-		display:grid;
-		grid-template-columns:repeat(18, 0.03fr);
-		grid-template-rows: repeat(1, 1fr);
-		grid-gap: 1%;
-		font-size: 26px;
-	}
 	
 	.about--text--container {
 		padding: 0 5%;
@@ -175,12 +167,12 @@
 
 .grid {
 	display:grid;
-	grid-template-columns:repeat(15, 0.03fr);
+	grid-template-columns:repeat(10, 0.03fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 0.5%;
 	width: 90%;
 	padding-top: 4%;
-
+	margin-left: 17%;
 }
 
 .grid__cell {
@@ -188,7 +180,7 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
-	font-size: 1em;
+	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
 	background: floralwhite;
 }
@@ -196,7 +188,7 @@
 .grid__cell--text {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	font-size: 7px;
+	font-size: 11px;
 }
 
 .projects {
@@ -220,13 +212,14 @@
 	padding-bottom: 3%;
 	/* box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75); */
 	background-color: floralwhite;
-	
+	font-weight: 100;
 	color: #001233;
 	padding: 2%;
 }
 .project-icons {
 	text-align: center;
 	padding-top: 1%;
+	font-size: 26px;
 }
 .project--titles {
 	text-align: center;
