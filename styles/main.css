@@ -22,7 +22,8 @@
 	text-decoration: none;
 	/* font-family: 'Roboto', sans-serif; */
 	font-size: 20px;
-	color: #FF9100;
+	/* color: #FF9100; */
+	color: #001233;
 	font-family: 'Playfair Display', serif;
 }
 
@@ -52,10 +53,11 @@
 .home--textbox h1 {
 	font-family: cooper-black-std, serif;
 	font-size: 7em;
-	text-shadow: -4px -2px 0px #FF9100;
+	/* text-shadow: -4px -2px 0px #FF9100; */
 	font-weight: 400;
 	font-style: normal;
-	color: #FF6000;
+	/* color: #FF6000; */
+	color: #001233;
 
 }
 
@@ -64,14 +66,13 @@
 	margin-top: 1.5em;
 	font-weight: 100;
 	font-size: 2em;
-	color: #FF9100;
-	text-shadow: -4px -2px 0px #023e8a;
+	/* color: #FF9100; */
+	color: #001233;
+	/* text-shadow: -4px -2px 0px #023e8a; */
 }
 
 .about {
 	width: 100vw;
-	height: 100vh;
-	
 }
 
 
@@ -131,12 +132,20 @@
 	color: #fffffc;
 }
 
+.about--about-title {
+	color: #001233;
+	font-family: 'Playfair Display', serif;
+	font-size: 18px;
+	font-weight: 100;
+	padding: 10% 5% 5% 5%;
+}
+
 .about--about-dark {
 	color: #001233;
 	font-family: 'Playfair Display', serif;
 	font-size: 18px;
 	font-weight: 100;
-	padding: 5% 5%;
+	padding: 5%;
 }
 
 .about--about-dark-thin {
