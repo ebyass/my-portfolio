@@ -43,12 +43,23 @@
   background-position: center;
 }
 
+.home--subtitle {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
 
+.home--subtitle h3 {
+	margin-top: 1em;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: cooper-black-std, serif;
+}
 
 .home--textbox {
 	text-align: center;
 	transform: translate(0px, -70px);
 }
+
+
 
 .home--textbox h1 {
 	font-family: cooper-black-std, serif;
@@ -98,7 +109,7 @@
 
 	
 	.about--text--container {
-		padding: 0 5%;
+		padding: 0 5% 0 0;
 		background-color: floralwhite;
 	}
 	.about--wrapper {
@@ -150,7 +161,7 @@
 
 .about img {
 	width: 20em;
-	margin: 0 3em;
+	margin: 0 3em 0 8em;
 	border: 3px solid #001233;
 }
 .about--text {
@@ -167,7 +178,7 @@
 
 .grid {
 	display:grid;
-	grid-template-columns:repeat(10, 0.03fr);
+	grid-template-columns:repeat(9, 0.03fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 0.5%;
 	width: 90%;
@@ -188,7 +199,7 @@
 .grid__cell--text {
 	margin-top: 1em;
 	margin-bottom: 1em;
-	font-size: 11px;
+	font-size: 15px;
 }
 
 .projects {
@@ -211,10 +222,11 @@
 	width: 50%;
 	padding-bottom: 3%;
 	/* box-shadow: 17px 15px 32px -16px rgba(0,0,0,0.75); */
+	
 	background-color: floralwhite;
 	font-weight: 100;
-	color: #001233;
 	padding: 2%;
+	line-height: 1.6
 }
 .project-icons {
 	text-align: center;
