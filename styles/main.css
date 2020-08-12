@@ -5,6 +5,7 @@
 	margin: 0 auto;
 	letter-spacing: 2px;
 	background-color: floralwhite;
+	color: black;
 	/* color: floralwhite; */
 }
 
@@ -12,46 +13,74 @@
 .nav {
 	width: 100%;
 	display: inline-flex;
-	height: 3em;
+	height: 10vh;
+	margin-bottom: 3vh;
 	align-items: center;
 	background-color: floralwhite;
-
+	
 }
 
 .nav-item {
 	text-decoration: none;
-	/* font-family: 'Roboto', sans-serif; */
-	font-size: 20px;
+	font-size: 1.5em;
 	/* color: #FF9100; */
-	color: #001233;
-	font-family: 'Playfair Display', serif;
+	color: black;
+	font-family: archivo-black, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
+.nametag {
+	transform: translate(0px, 50px);
+}
 
+.contact-icons {
+	transform: translate(0px, -50px);
+	width: 30%;
+	text-align: center;
+}
+
+.box {
+	position: relative;
+  display: inline-block;
+}
+
+.box .text{
+	position: absolute;
+	z-index: 999;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	top: 55%; /* Adjust this value to move the positioned div up and down */
+	text-align: center;
+	width: 80%; /* Set the width of the positioned div */
+}
 
 .home {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	/* justify-content: center; */
+	/* align-items: center; */
 	flex-direction: column;
-	width: 100vw;
+	/* width: 100vw; */
 	height: 100vh;
-	background-color: floralwhite;
+	margin-top: 3em;
+	/* background-color: floralwhite; */
 	/* background-image: url(/Users/eleanorbyass/development/PROJECTS/portfolio/assets/homepage.jpg); */
-	background-repeat: no-repeat;
-  /* background-attachment: fixed; */
-  background-position: center;
+	/* background-repeat: no-repeat; */
+	/* background-attachment: fixed; */
+	/* background-position: center; */
 }
 
 .home--subtitle {
-	margin-top: 2em;
-	margin-bottom: 2em;
+	margin-top: 3em;
+	/* margin-bottom: 2em; */
 }
 
 .home--subtitle h3 {
 	margin-top: 1em;
-	/* font-family: 'Playfair Display', serif; */
-	font-family: cooper-black-std, serif;
+	font-weight: 300;
+	/* font-family: sans-serif; */
+	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
 .home--textbox {
@@ -63,21 +92,24 @@
 
 .home--textbox h1 {
 	font-family: cooper-black-std, serif;
-	font-size: 7em;
+	font-size: 4.5em;
 	/* text-shadow: -4px -2px 0px #FF9100; */
 	font-weight: 400;
 	font-style: normal;
-	/* color: #FF6000; */
-	color: #001233;
+	color: black;
+	
 
 }
 
 .home--textbox h2 {
 	font-family: cooper-black-std, serif;
-	margin-top: 1.5em;
-	font-weight: 100;
-	font-size: 2em;
-	color: #001233;
+	/* font-family: 'Playfair Display', serif; */
+	/* font-family: 'Nothing You Could Do', cursive; */ 
+	margin-top: 1em;
+	font-weight: 200;
+	font-size: 2.5em;
+	color: black;
+	
 }
 
 /* .home--textbox h3 {
@@ -87,7 +119,11 @@
 
 .about {
 	width: 100vw;
+	height: 100vh;
+	background-color: black;
 }
+
+
 
 
 @media screen and (min-width: 520px) {
@@ -110,7 +146,7 @@
 	
 	.about--text--container {
 		padding: 0 5% 0 0;
-		background-color: floralwhite;
+		background-color: black
 	}
 	.about--wrapper {
 		display: inline-flex;
@@ -128,7 +164,8 @@
 
 .about--about {
 	/* font-family: 'Roboto', sans-serif; */
-	font-family: 'Playfair Display', serif;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: archivo-black, sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 	padding: 5% 5%;
@@ -136,24 +173,36 @@
 }
 
 .about--about-title {
-	color: #001233;
-	font-family: 'Playfair Display', serif;
-	font-size: 18px;
+	color: black;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: archivo-black, sans-serif;
+	font-size: 2em;
 	font-weight: 100;
 	padding: 10% 5% 5% 5%;
 }
 
 .about--about-dark {
-	color: #001233;
-	font-family: 'Playfair Display', serif;
-	font-size: 18px;
+	color: black;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: archivo-black, sans-serif;
+	font-size: 2em;
+	font-weight: 100;
+	padding: 5%;
+}
+
+.about--about-white {
+	color: white;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: archivo-black, sans-serif;
+	font-size: 2em;
 	font-weight: 100;
 	padding: 5%;
 }
 
 .about--about-dark-thin {
-	color: #001233;
-	font-family: 'Playfair Display', serif;
+	color: black;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: archivo-black, sans-serif;
 	font-size: 18px;
 	font-weight: 100;
 	padding: 0 5% 5% 5% ;
@@ -162,7 +211,7 @@
 .about img {
 	width: 20em;
 	margin: 0 3em 0 8em;
-	border: 3px solid #001233;
+	/* border: 3px solid #001233; */
 }
 .about--text {
 	font-family: 'Roboto', sans-serif;
@@ -173,12 +222,14 @@
 	padding-bottom: 3%;
 	width: 55%;
 	font-weight: 100;
-	background: floralwhite;
+	background: black;
+	color: white;
 }
 
 .grid {
-	display:grid;
-	grid-template-columns:repeat(9, 0.03fr);
+	display: grid;
+	background-color: black;
+	grid-template-columns: repeat(9, 0.03fr);
 	grid-template-rows: repeat(2, 1fr);
 	grid-gap: 0.5%;
 	width: 90%;
@@ -193,7 +244,8 @@
 	flex-direction: column;
 	font-size: 2em;
 	font-family: 'Roboto', sans-serif;
-	background: floralwhite;
+	/* background: floralwhite; */
+	background-color: black;
 }
 
 .grid__cell--text {
@@ -311,10 +363,10 @@ body { font-family: sans-serif; }
 }
 /* arrow color */
 .flickity-prev-next-button .arrow {
-  fill: #001233;
+  fill: black;
 }
 .flickity-prev-next-button.no-svg {
-  color: #001233;
+  color: black;
 }
 /* closer to edge */
 .flickity-prev-next-button.previous { left: 0; }
@@ -376,7 +428,7 @@ color: #FF4800;
 
 
 .W {
-	background-color: #001233;
+	background-color: black;
 }
 
 .X {
@@ -384,15 +436,21 @@ color: #FF4800;
 }
 
 .Y {
-	color: #001233;
+	color: black;
 }
 
 .Z {
 	background-color: floralwhite;
+	/* background-color: black; */
+}
+
+#github {
+	background-color: black;
+	color: #FF4800;
 }
 
 i:hover {
-	color: #001233;
+	color: black;
 }
 
 .contact {
@@ -401,19 +459,24 @@ i:hover {
 .contact--title {
 	font-weight: 400;
 	font-style: normal;
-	font-family: 'Playfair Display', serif;
-	color: #001233;
+	font-size: 2em;
+	/* font-family: 'Playfair Display', serif; */
+	font-family: archivo-black, sans-serif;
+	color: black;
 	background-color: floralwhite;
-	padding: 5% 5%;
+	padding: 2.5% 5%;
 }
 
 .contact--text {
 	padding-left: 5%;
 	font-family: 'Playfair Display', serif;
+	padding: 1.5% 5%;
+	/* font-family: archivo-black, sans-serif; */
+	font-size: 1.25em;
 }
 
 .contact--icons {
-	padding-left: 5%;
+	padding-left: 3%;
 }
 
 .icon {
@@ -427,7 +490,7 @@ i:hover {
 .devicon-github-plain-dark:before {
 	content: "\e909";
 	/* background-color: floralwhite; */
-	background-color: #001233
+	background-color: black
 }
 
 .devicon-github-plain:before {
