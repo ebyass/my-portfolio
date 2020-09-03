@@ -110,7 +110,7 @@ a {
 	.about--title {
 		font-family: archivo-black, sans-serif;
 		padding: 1em;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 
 	.about--img {
@@ -120,6 +120,8 @@ a {
 	.about--text {
 		width: 80%;
 		padding: 2em;
+		font-family: 'Ubuntu Mono', monospace;
+		line-height: 1.5em;
 	}
 
 	.grid {
@@ -143,12 +145,12 @@ a {
 	.project--title {
 		font-family: archivo-black, sans-serif;
 		padding: 1em;
-		font-size: 1.25em;
+		font-size: 1.5em;
 	}
 	.project--subtitle {
 		font-family: archivo-black, sans-serif;
 		padding: 1em;
-		font-size: 1em;
+		font-size: 1.25em;
 	}
 
 	.slideshow {
@@ -197,7 +199,7 @@ a {
 
 	.project--text {
 		text-align: center;
-		width: 70%;
+		width: 90%;
 	}
 
 	.part-1 {
@@ -205,6 +207,7 @@ a {
 	}
 	.part-2 {
 		width: 60%;
+		font-family: 'Ubuntu Mono', monospace;
 	}
 	.part-3 {
 		padding: 1em;
@@ -280,6 +283,7 @@ a {
 	.about--title {
 		font-family: archivo-black, sans-serif;
 		padding: 1em;
+		
 	}
 
 	.about--img {
@@ -289,6 +293,8 @@ a {
 	.about--text {
 		width: 80%;
 		padding: 2em;
+		font-family: 'Ubuntu Mono', monospace;
+		line-height: 1.5em;
 	}
 
 	.grid {
@@ -302,9 +308,7 @@ a {
 
 	.grid__cell {
 		display: flex;
-		padding: 0.75em;
-		height: 1.5em;
-		width: 5em;
+		width: 3em;
 		flex:1;
 	}
 
@@ -360,13 +364,16 @@ a {
 
 	.project--text {
 		text-align: center;
+		background-color: pink;
+		width: 90%;
 	}
 
 	.part-1 {
 		padding: 1em;
 	}
 	.part-2 {
-		width: 80%;
+		width: 90%;
+		font-family: 'Ubuntu Mono', monospace;
 	}
 	.part-3 {
 		padding: 1em;
