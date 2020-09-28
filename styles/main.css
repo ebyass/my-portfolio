@@ -47,6 +47,13 @@ a {
 		color: #FFB600;
 	}
 	
+	.side-by-side {
+		display: flex;
+		flex-direction: row;
+		padding: 3em;
+	}
+
+
 
 /* DESKTOP VIEW*/
 
@@ -199,8 +206,11 @@ a {
 
 	.project--text {
 		text-align: center;
-		width: 90%;
+		width: 50%;
+		background-color: pink;
 	}
+
+	
 
 	.part-1 {
 		padding: 1em;
@@ -387,5 +397,7 @@ a {
 	.contact--text {
 		padding-left: 1.6em;
 	}
+
+
 
  }
