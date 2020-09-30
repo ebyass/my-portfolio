@@ -208,6 +208,10 @@ a {
 		text-align: center;
 		width: 50%;
 		background-color: pink;
+		/* border-style: solid;
+		border-color: pink;
+		border-width: 0.25em; */
+		border: 1px solid hotpink;
 	}
 
 	
@@ -216,7 +220,7 @@ a {
 		padding: 1em;
 	}
 	.part-2 {
-		width: 60%;
+		padding: 2em;
 		font-family: 'Ubuntu Mono', monospace;
 	}
 	.part-3 {
@@ -382,7 +386,7 @@ a {
 		padding: 1em;
 	}
 	.part-2 {
-		width: 90%;
+		padding: 2em;
 		font-family: 'Ubuntu Mono', monospace;
 	}
 	.part-3 {
